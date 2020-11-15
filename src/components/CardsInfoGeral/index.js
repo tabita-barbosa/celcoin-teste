@@ -1,36 +1,21 @@
 import react from 'react';
 import data from '../../dados/infoGeral.json'
-import iconUser from '../../assets/user.png'
-import iconBlue from '../../assets/iconBlue.png'
-import iconRed from '../../assets/iconRed.png'
-import iconGreen from '../../assets/iconGreen.png'
 
 import './styles.css';
 
-const CardInfoGeral = () => {
-
-    const infos = data.map((infoGeral) => {
+function CardInfoGeral (props) {
         return (
-            <>
                 <article>
-                    <img src={infoGeral.src}>
+                    <img src={props.icon}>
                     </img>
-                    <button>{infoGeral.porcentagem}
+                    <button>{props.btnInfo}
                     </button>
-                    <h1>{infoGeral.num}
+                    <h1>{props.titulo}
                     </h1>
-                    <p>{infoGeral.text}
+                    <p>{props.text}
                     </p>
                 </article>
-            </>
         )
-    })
-
-    return (
-        <>
-            {infos}
-        </>
-    )
 }
 
 export default CardInfoGeral;
