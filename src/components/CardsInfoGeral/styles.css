@@ -1,0 +1,23 @@
+.card-div{
+    position: absolute;
+    width: 368px;
+    height: 176px;
+    left: 320px;
+    top: 200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.08);
+    border-radius: 6px;
+}
+
+.card-shadow{
+    position: absolute;
+    width: 296px;
+    height: 172px;
+    left: 376px;
+    top: 212px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.08);
+    border-radius: 6px;
+}

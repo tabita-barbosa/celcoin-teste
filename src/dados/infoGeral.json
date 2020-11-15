@@ -1,0 +1,26 @@
+[
+    {
+        "src": "../assets/user.png",
+        "num": "26",
+        "text": "Pacientes ativos",
+        "porcentagem": "+30%"
+    },
+    {
+        "src": "../assets/iconBlue.png",
+        "num": "139",
+        "text": "Testes realizados",
+        "porcentagem": "-10%"
+    },
+    {
+        "src": "assets/iconGreen.png",
+        "num": "136",
+        "text": "Testes concluídos",
+        "porcentagem": "+30%"
+    },
+    {
+        "src": "assets/iconRed.png",
+        "num": "11",
+        "text": "Testes cancelados",
+        "porcentagem": "-3%"
+    }
+]
